@@ -1,0 +1,6 @@
+C:\Users\Mi\source\repos\BKIT_LAB6.1\BKIT_LAB6.1\bin\Debug\BKIT_LAB6.1.exe.config
+C:\Users\Mi\source\repos\BKIT_LAB6.1\BKIT_LAB6.1\bin\Debug\BKIT_LAB6.1.exe
+C:\Users\Mi\source\repos\BKIT_LAB6.1\BKIT_LAB6.1\bin\Debug\BKIT_LAB6.1.pdb
+C:\Users\Mi\source\repos\BKIT_LAB6.1\BKIT_LAB6.1\obj\Debug\BKIT_LAB6.1.csproj.CoreCompileInputs.cache
+C:\Users\Mi\source\repos\BKIT_LAB6.1\BKIT_LAB6.1\obj\Debug\BKIT_LAB6.1.exe
+C:\Users\Mi\source\repos\BKIT_LAB6.1\BKIT_LAB6.1\obj\Debug\BKIT_LAB6.1.pdb

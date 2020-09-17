@@ -1,0 +1,7 @@
+C:\Users\Mi\source\repos\BKIT_LAB3\BKIT_LAB3\bin\Debug\BKIT_LAB3.exe.config
+C:\Users\Mi\source\repos\BKIT_LAB3\BKIT_LAB3\bin\Debug\BKIT_LAB3.exe
+C:\Users\Mi\source\repos\BKIT_LAB3\BKIT_LAB3\bin\Debug\BKIT_LAB3.pdb
+C:\Users\Mi\source\repos\BKIT_LAB3\BKIT_LAB3\obj\Debug\BKIT_LAB3.csprojAssemblyReference.cache
+C:\Users\Mi\source\repos\BKIT_LAB3\BKIT_LAB3\obj\Debug\BKIT_LAB3.csproj.CoreCompileInputs.cache
+C:\Users\Mi\source\repos\BKIT_LAB3\BKIT_LAB3\obj\Debug\BKIT_LAB3.exe
+C:\Users\Mi\source\repos\BKIT_LAB3\BKIT_LAB3\obj\Debug\BKIT_LAB3.pdb

@@ -1,0 +1,6 @@
+C:\Users\Mi\source\repos\BKIT_LAB5\BKIT_LAB5\bin\Debug\BKIT_LAB5.dll
+C:\Users\Mi\source\repos\BKIT_LAB5\BKIT_LAB5\bin\Debug\BKIT_LAB5.pdb
+C:\Users\Mi\source\repos\BKIT_LAB5\BKIT_LAB5\obj\Debug\BKIT_LAB5.csproj.CoreCompileInputs.cache
+C:\Users\Mi\source\repos\BKIT_LAB5\BKIT_LAB5\obj\Debug\BKIT_LAB5.dll
+C:\Users\Mi\source\repos\BKIT_LAB5\BKIT_LAB5\obj\Debug\BKIT_LAB5.pdb
+C:\Users\Mi\source\repos\BKIT_LAB5\BKIT_LAB5\obj\Debug\BKIT_LAB5.csprojAssemblyReference.cache
