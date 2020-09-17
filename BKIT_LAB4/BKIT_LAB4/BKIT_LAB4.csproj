@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BKIT_LAB5">
+      <HintPath>..\..\BKIT_LAB5\BKIT_LAB5\bin\Debug\BKIT_LAB5.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

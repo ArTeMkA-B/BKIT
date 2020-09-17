@@ -18,3 +18,6 @@ C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB4\BKIT_LAB4\obj\Debug\BKIT_LAB4.cspro
 C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB4\BKIT_LAB4\obj\Debug\BKIT_LAB4.csproj.CoreCompileInputs.cache
 C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB4\BKIT_LAB4\obj\Debug\BKIT_LAB4.exe
 C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB4\BKIT_LAB4\obj\Debug\BKIT_LAB4.pdb
+C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB4\BKIT_LAB4\bin\Debug\BKIT_LAB5.dll
+C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB4\BKIT_LAB4\bin\Debug\BKIT_LAB5.pdb
+C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB4\BKIT_LAB4\obj\Debug\BKIT_LAB4.csproj.CopyComplete

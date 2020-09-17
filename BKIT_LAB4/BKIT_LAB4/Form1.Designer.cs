@@ -40,12 +40,18 @@
             this.NotFoundWordsListBox = new System.Windows.Forms.ListBox();
             this.FirstSubtitle = new System.Windows.Forms.Label();
             this.SecondSubtitle = new System.Windows.Forms.Label();
+            this.DistUpDown = new System.Windows.Forms.NumericUpDown();
+            this.LevenshteinLabel = new System.Windows.Forms.Label();
+            this.ExactMathRB = new System.Windows.Forms.RadioButton();
+            this.LevenDistRB = new System.Windows.Forms.RadioButton();
+            this.OptimizationCheckbox = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.DistUpDown)).BeginInit();
             this.SuspendLayout();
             // 
             // LoadButton
             // 
             this.LoadButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LoadButton.Location = new System.Drawing.Point(279, 608);
+            this.LoadButton.Location = new System.Drawing.Point(279, 690);
             this.LoadButton.Name = "LoadButton";
             this.LoadButton.Size = new System.Drawing.Size(171, 55);
             this.LoadButton.TabIndex = 0;
@@ -62,7 +68,7 @@
             // LoadTimeLabel
             // 
             this.LoadTimeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.LoadTimeLabel.Location = new System.Drawing.Point(474, 627);
+            this.LoadTimeLabel.Location = new System.Drawing.Point(474, 709);
             this.LoadTimeLabel.Name = "LoadTimeLabel";
             this.LoadTimeLabel.Size = new System.Drawing.Size(231, 23);
             this.LoadTimeLabel.TabIndex = 1;
@@ -72,7 +78,7 @@
             // SearchTextBox
             // 
             this.SearchTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SearchTextBox.Location = new System.Drawing.Point(351, 104);
+            this.SearchTextBox.Location = new System.Drawing.Point(352, 197);
             this.SearchTextBox.Name = "SearchTextBox";
             this.SearchTextBox.Size = new System.Drawing.Size(192, 26);
             this.SearchTextBox.TabIndex = 2;
@@ -81,7 +87,7 @@
             // SearchButton
             // 
             this.SearchButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SearchButton.Location = new System.Drawing.Point(575, 99);
+            this.SearchButton.Location = new System.Drawing.Point(576, 192);
             this.SearchButton.Name = "SearchButton";
             this.SearchButton.Size = new System.Drawing.Size(130, 35);
             this.SearchButton.TabIndex = 3;
@@ -92,25 +98,26 @@
             // 
             // FoundWordsListBox
             // 
-            this.FoundWordsListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.FoundWordsListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FoundWordsListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FoundWordsListBox.ForeColor = System.Drawing.Color.Green;
             this.FoundWordsListBox.FormattingEnabled = true;
             this.FoundWordsListBox.ItemHeight = 22;
-            this.FoundWordsListBox.Location = new System.Drawing.Point(63, 259);
+            this.FoundWordsListBox.Location = new System.Drawing.Point(64, 332);
             this.FoundWordsListBox.Name = "FoundWordsListBox";
-            this.FoundWordsListBox.Size = new System.Drawing.Size(243, 312);
+            this.FoundWordsListBox.Size = new System.Drawing.Size(243, 334);
             this.FoundWordsListBox.TabIndex = 4;
             this.FoundWordsListBox.Visible = false;
             // 
             // SearchTimeLabel
             // 
+            this.SearchTimeLabel.AutoSize = true;
             this.SearchTimeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SearchTimeLabel.Location = new System.Drawing.Point(13, 139);
+            this.SearchTimeLabel.Location = new System.Drawing.Point(14, 236);
             this.SearchTimeLabel.Name = "SearchTimeLabel";
-            this.SearchTimeLabel.Size = new System.Drawing.Size(229, 32);
+            this.SearchTimeLabel.Size = new System.Drawing.Size(109, 20);
             this.SearchTimeLabel.TabIndex = 5;
             this.SearchTimeLabel.Text = "Search time: ";
             this.SearchTimeLabel.Visible = false;
@@ -129,7 +136,7 @@
             // 
             this.InstructionLabel.AutoSize = true;
             this.InstructionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.InstructionLabel.Location = new System.Drawing.Point(12, 105);
+            this.InstructionLabel.Location = new System.Drawing.Point(14, 196);
             this.InstructionLabel.Name = "InstructionLabel";
             this.InstructionLabel.Size = new System.Drawing.Size(283, 25);
             this.InstructionLabel.TabIndex = 7;
@@ -138,16 +145,16 @@
             // 
             // NotFoundWordsListBox
             // 
-            this.NotFoundWordsListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.NotFoundWordsListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.NotFoundWordsListBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.NotFoundWordsListBox.ForeColor = System.Drawing.Color.Red;
             this.NotFoundWordsListBox.FormattingEnabled = true;
             this.NotFoundWordsListBox.ItemHeight = 22;
-            this.NotFoundWordsListBox.Location = new System.Drawing.Point(420, 259);
+            this.NotFoundWordsListBox.Location = new System.Drawing.Point(421, 332);
             this.NotFoundWordsListBox.Name = "NotFoundWordsListBox";
-            this.NotFoundWordsListBox.Size = new System.Drawing.Size(244, 312);
+            this.NotFoundWordsListBox.Size = new System.Drawing.Size(244, 334);
             this.NotFoundWordsListBox.TabIndex = 8;
             this.NotFoundWordsListBox.Visible = false;
             // 
@@ -155,7 +162,7 @@
             // 
             this.FirstSubtitle.AutoSize = true;
             this.FirstSubtitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.FirstSubtitle.Location = new System.Drawing.Point(141, 217);
+            this.FirstSubtitle.Location = new System.Drawing.Point(132, 292);
             this.FirstSubtitle.Name = "FirstSubtitle";
             this.FirstSubtitle.Size = new System.Drawing.Size(89, 26);
             this.FirstSubtitle.TabIndex = 9;
@@ -166,18 +173,82 @@
             // 
             this.SecondSubtitle.AutoSize = true;
             this.SecondSubtitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.SecondSubtitle.Location = new System.Drawing.Point(479, 217);
+            this.SecondSubtitle.Location = new System.Drawing.Point(484, 292);
             this.SecondSubtitle.Name = "SecondSubtitle";
             this.SecondSubtitle.Size = new System.Drawing.Size(126, 26);
             this.SecondSubtitle.TabIndex = 10;
             this.SecondSubtitle.Text = "Not existing";
             this.SecondSubtitle.Visible = false;
             // 
+            // DistUpDown
+            // 
+            this.DistUpDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DistUpDown.Location = new System.Drawing.Point(490, 165);
+            this.DistUpDown.Name = "DistUpDown";
+            this.DistUpDown.Size = new System.Drawing.Size(54, 26);
+            this.DistUpDown.TabIndex = 11;
+            this.DistUpDown.Visible = false;
+            // 
+            // LevenshteinLabel
+            // 
+            this.LevenshteinLabel.AutoSize = true;
+            this.LevenshteinLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LevenshteinLabel.Location = new System.Drawing.Point(14, 163);
+            this.LevenshteinLabel.Name = "LevenshteinLabel";
+            this.LevenshteinLabel.Size = new System.Drawing.Size(436, 25);
+            this.LevenshteinLabel.TabIndex = 12;
+            this.LevenshteinLabel.Text = "Set the maximum value of Levenshtein distance: ";
+            this.LevenshteinLabel.Visible = false;
+            // 
+            // ExactMathRB
+            // 
+            this.ExactMathRB.AutoSize = true;
+            this.ExactMathRB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ExactMathRB.Location = new System.Drawing.Point(119, 79);
+            this.ExactMathRB.Name = "ExactMathRB";
+            this.ExactMathRB.Size = new System.Drawing.Size(134, 28);
+            this.ExactMathRB.TabIndex = 13;
+            this.ExactMathRB.Text = "Еxact match";
+            this.ExactMathRB.UseVisualStyleBackColor = true;
+            this.ExactMathRB.Visible = false;
+            this.ExactMathRB.CheckedChanged += new System.EventHandler(this.ExactMathRB_CheckedChanged);
+            // 
+            // LevenDistRB
+            // 
+            this.LevenDistRB.AutoSize = true;
+            this.LevenDistRB.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.LevenDistRB.Location = new System.Drawing.Point(388, 79);
+            this.LevenDistRB.Name = "LevenDistRB";
+            this.LevenDistRB.Size = new System.Drawing.Size(208, 28);
+            this.LevenDistRB.TabIndex = 14;
+            this.LevenDistRB.Text = "Levenshtein distance";
+            this.LevenDistRB.UseVisualStyleBackColor = true;
+            this.LevenDistRB.Visible = false;
+            this.LevenDistRB.CheckedChanged += new System.EventHandler(this.LevenDistRB_CheckedChanged);
+            // 
+            // OptimizationCheckbox
+            // 
+            this.OptimizationCheckbox.AutoSize = true;
+            this.OptimizationCheckbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.OptimizationCheckbox.Location = new System.Drawing.Point(422, 109);
+            this.OptimizationCheckbox.Name = "OptimizationCheckbox";
+            this.OptimizationCheckbox.Size = new System.Drawing.Size(156, 24);
+            this.OptimizationCheckbox.TabIndex = 15;
+            this.OptimizationCheckbox.Text = "with optimization";
+            this.OptimizationCheckbox.UseVisualStyleBackColor = true;
+            this.OptimizationCheckbox.Visible = false;
+            this.OptimizationCheckbox.CheckedChanged += new System.EventHandler(this.OptimizationCheckbox_CheckedChanged);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(726, 698);
+            this.ClientSize = new System.Drawing.Size(726, 764);
+            this.Controls.Add(this.OptimizationCheckbox);
+            this.Controls.Add(this.LevenDistRB);
+            this.Controls.Add(this.ExactMathRB);
+            this.Controls.Add(this.LevenshteinLabel);
+            this.Controls.Add(this.DistUpDown);
             this.Controls.Add(this.SecondSubtitle);
             this.Controls.Add(this.FirstSubtitle);
             this.Controls.Add(this.NotFoundWordsListBox);
@@ -191,6 +262,7 @@
             this.Controls.Add(this.LoadButton);
             this.Name = "MainForm";
             this.Text = "BKIT_LAB4";
+            ((System.ComponentModel.ISupportInitialize)(this.DistUpDown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,6 +282,11 @@
         private System.Windows.Forms.ListBox NotFoundWordsListBox;
         private System.Windows.Forms.Label FirstSubtitle;
         private System.Windows.Forms.Label SecondSubtitle;
+        private System.Windows.Forms.NumericUpDown DistUpDown;
+        private System.Windows.Forms.Label LevenshteinLabel;
+        private System.Windows.Forms.RadioButton ExactMathRB;
+        private System.Windows.Forms.RadioButton LevenDistRB;
+        private System.Windows.Forms.CheckBox OptimizationCheckbox;
     }
 }
 
