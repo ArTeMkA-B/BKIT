@@ -5,3 +5,10 @@ C:\Users\Mi\source\repos\BKIT_LAB2\BKIT_LAB2\obj\Debug\BKIT_LAB2.csprojAssemblyR
 C:\Users\Mi\source\repos\BKIT_LAB2\BKIT_LAB2\obj\Debug\BKIT_LAB2.csproj.CoreCompileInputs.cache
 C:\Users\Mi\source\repos\BKIT_LAB2\BKIT_LAB2\obj\Debug\BKIT_LAB2.exe
 C:\Users\Mi\source\repos\BKIT_LAB2\BKIT_LAB2\obj\Debug\BKIT_LAB2.pdb
+C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB2\BKIT_LAB2\bin\Debug\BKIT_LAB2.exe.config
+C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB2\BKIT_LAB2\bin\Debug\BKIT_LAB2.exe
+C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB2\BKIT_LAB2\bin\Debug\BKIT_LAB2.pdb
+C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB2\BKIT_LAB2\obj\Debug\BKIT_LAB2.csprojAssemblyReference.cache
+C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB2\BKIT_LAB2\obj\Debug\BKIT_LAB2.csproj.CoreCompileInputs.cache
+C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB2\BKIT_LAB2\obj\Debug\BKIT_LAB2.exe
+C:\Users\Mi\source\repos\BKIT_LABS\BKIT_LAB2\BKIT_LAB2\obj\Debug\BKIT_LAB2.pdb
